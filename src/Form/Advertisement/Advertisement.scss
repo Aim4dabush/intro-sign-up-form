@@ -1,0 +1,26 @@
+@import "../../SassVariables.scss";
+
+.advertisement-container {
+  align-items: center;
+  background-color: $purple;
+  border-radius: 10px;
+  box-shadow: 0px 8px rgba($color: #000000, $alpha: 0.1469);
+  color: white;
+  display: flex;
+  font-size: 15px;
+  height: 88px;
+  justify-content: center;
+  margin-bottom: 24px;
+  width: 327px;
+
+  p {
+    font-family: 400;
+    text-align: center;
+    margin: 0;
+    width: 194px;
+
+    span {
+      font-family: 500;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import "./SassVariables.scss";
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  padding: 0 24px;
+  position: relative;
+  width: 375px;
+
+  .mobile-bg {
+    background-color: $red;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+}

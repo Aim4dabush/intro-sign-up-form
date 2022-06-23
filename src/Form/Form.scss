@@ -1,0 +1,71 @@
+@import "../SassVariables.scss";
+
+.form-container {
+  padding-top: 64px;
+
+  form {
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    width: 327px;
+
+    button {
+      border: none;
+      border-radius: 5px;
+      background-color: $green;
+      box-shadow: 0 4px rgba($color: #000000, $alpha: 0.0909);
+      color: white;
+      height: 56px;
+      width: 279px;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:disabled {
+        cursor: not-allowed;
+      }
+    }
+
+    .form-control {
+      align-items: flex-start;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 16px;
+
+      .error {
+        border: 1px solid $red;
+      }
+
+      .error-text {
+        color: $red;
+        font-size: 11px;
+        margin: 0;
+        text-align: end;
+      }
+
+      input {
+        border: 1px solid #dedede;
+        border-radius: 5px;
+        font-size: 14px;
+        height: 56px;
+        padding-left: 20px;
+        width: 279px;
+      }
+    }
+
+    p {
+      color: $lightPurple;
+      font-size: 11px;
+      font-weight: 700;
+      text-align: center;
+      width: 249px;
+      span {
+        color: $red;
+      }
+    }
+  }
+}
