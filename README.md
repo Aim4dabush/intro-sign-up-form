@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Intro Sign Up Form
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Deployed Site: [https://aim4dabush.github.io/intro-sign-up-form/](https://aim4dabush.github.io/intro-sign-up-form/)
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Intro Sign Up Form](#intro-sign-up-form)
+  - [Table of Contents](#table-of-contents)
+  - [Overview](#overview)
+    - [Goals](#goals)
+    - [What I learned](#what-i-learned)
+  - [Tools](#tools)
+    - [Built With](#built-with)
+    - [Useful Resources](#useful-resources)
+  - [Author](#author)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This a project that is part of a series called "16 Front-End projects to help improve your coding skills". It is a project that focuses on form validation.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Goals
 
-### `npm test`
+- Recreate an exact replica of the landing page
+- Create form validations for all inputs
+- Design the validation errors like the examples that are given
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### What I learned
 
-### `npm run build`
+I learned a lot about conditional rendering to control when the error messages are displayed. I later edited my validation after learning about `custom hooks`. The reason why I edited it using custom hooks is because I noticed that a lot of validation were repeating the same operation and custom hooks cleaned up the code a lot more.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Tools
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Built With
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React
+- HTML
+- CSS
+- Sass
 
-### `npm run eject`
+### Useful Resources
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Sass: [https://sass-lang.com/](https://sass-lang.com/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Author
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Edward Arasato
+  - Profile Website: [https://aim4dabush.github.io/web-profile/](https://aim4dabush.github.io/web-profile/)
+  - LinkedIn: [https://www.linkedin.com/in/ed-arasato-74614112a/](https://www.linkedin.com/in/ed-arasato-74614112a/)
+  - Github: [https://github.com/Aim4dabush](https://github.com/Aim4dabush)
